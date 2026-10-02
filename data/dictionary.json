@@ -1,0 +1,28 @@
+{
+  "CUSTOMER_NAME": {
+    "position": 1,
+    "heading": "Customer",
+    "data_type": "text",
+    "multivalued": false
+  },
+  "ACCOUNT_STATUS": {
+    "position": 2,
+    "heading": "Status",
+    "data_type": "text",
+    "multivalued": false
+  },
+  "FEE_CODES": {
+    "position": 3,
+    "heading": "Fee code",
+    "data_type": "text",
+    "multivalued": true,
+    "association": "FEES"
+  },
+  "FEE_AMOUNTS": {
+    "position": 4,
+    "heading": "Fee amount",
+    "data_type": "currency",
+    "multivalued": true,
+    "association": "FEES"
+  }
+}

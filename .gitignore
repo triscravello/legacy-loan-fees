@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/loan_fees.db
+data/reconciliation.csv
